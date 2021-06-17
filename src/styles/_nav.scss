@@ -1,0 +1,20 @@
+#navbar{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh/8;
+    background-color: #fdfdfd;
+    .container{
+        padding-top: 2rem ;
+        display: flex;
+        width: 70vw;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            display: flex;
+        justify-content: space-between;
+        }
+    }
+}

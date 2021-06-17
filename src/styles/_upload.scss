@@ -1,0 +1,77 @@
+#thumbnail{
+    margin:1rem;
+    content: 'Choose your tumbnail';
+    width: 15vw;
+    height: 15vw;
+  display: inline-block;
+  
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+ 
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  
+}
+#video{
+    margin:1rem;
+    content: 'choose your video';
+    width: 15vw;
+    height: 15vw;
+  display: inline-block;
+ 
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+input[type=text] {
+    padding: 10px;
+    margin:1rem;
+    width: 50vw;
+    border-radius: 10px;
+    display: block;
+  }
+
+ .upload{
+     div{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+     }
+     button{
+         width: 50vw;
+        pointer-events: auto;
+        cursor: pointer;
+        background: #5b21e2;
+        color: #fff;
+        border-radius: 10px;
+        border: none;
+        padding: 1.5rem 3rem;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        position: relative;
+        display: inline-block;
+     }
+ } 
+ .progrssbar{
+   align-items: center;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  
+ }
